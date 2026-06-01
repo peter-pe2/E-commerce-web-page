@@ -1,16 +1,29 @@
-# React + Vite
+# 🛒 E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive e-commerce web application built to provide a seamless online shopping experience. This project features a scalable frontend architecture designed for high performance and fast development cycles.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains the frontend implementation of an e-commerce platform. The application is designed with modularity in mind, allowing for easy expansion of product catalogs, shopping cart functionalities, and user authentication flows in the future. It leverages a modern frontend build toolchain for optimized asset delivery and instantaneous hot module replacement (HMR).
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js** - Core library for building reusable, component-based user interfaces.
+* **JavaScript (ES6+)** - Application logic, state management, and DOM manipulation.
+* **HTML5 & CSS3** - Semantic page structure and responsive, mobile-first styling.
+* **Vite** - Next-generation frontend tooling for rapid development and optimized production builds.
 
-## Expanding the ESLint configuration
+## ✨ Key Features (Planned/Implemented)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Responsive Design:** Fully optimized for both mobile and desktop screens.
+* **Dynamic UI:** Fast, client-side rendering for smooth navigation without page reloads.
+* **Component-Based Architecture:** Scalable directory structure keeping UI components, assets, and logic cleanly separated.
+* **High Performance:** Utilizing Vite's optimized build process for minimal load times.
+
+## 📦 Installation & Setup
+
+To get a local copy up and running, follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/peter-pe2/E-commerce-web-page.git](https://github.com/peter-pe2/E-commerce-web-page.git)
