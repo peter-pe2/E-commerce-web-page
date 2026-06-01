@@ -1,0 +1,66 @@
+/* Navbar Styles */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    z-index: 20; 
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    margin-right: auto; 
+}
+
+.nav-item {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 0.8;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: opacity 0.3s, border-bottom 0.3s;
+}
+
+.nav-item:hover {
+    opacity: 1;
+    border-bottom: 2px solid #FFF;
+}
+
+.nav-icon svg {
+    color: #FFF;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+/* Media Queries for Navbar */
+@media screen and (max-width: 1199px) {
+    .navbar { padding: 30px 40px; }
+    .nav-links { gap: 30px; }
+    .nav-icon svg { margin-left: 30px; }
+}
+/* This is a helper style, you might have to adjust or merge this into styles.css */
+@media screen and (max-width: 767px) {
+    .navbar { 
+        padding: 20px; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative; /* Set to relative on mobile to allow space for other content */
+    }
+    .nav-links { 
+        margin-right: 0;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .nav-icon svg {
+        margin-left: 0;
+    }
+}

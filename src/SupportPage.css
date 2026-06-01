@@ -1,0 +1,128 @@
+.support-page-container {
+  padding: 120px 20px 40px;
+  background: #1a1a1a;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.support-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeIn 0.5s ease;
+}
+
+.support-header {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #C7F6D0, #7CB686);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.support-subtitle {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.support-card {
+  background: rgba(32, 32, 32, 0.9);
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(199, 246, 208, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  border-color: rgba(199, 246, 208, 0.3);
+}
+
+.support-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.support-card-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #C7F6D0;
+}
+
+.support-card-desc {
+  font-size: 15px;
+  color: #aaa;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.support-button {
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: none;
+  background: #333;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.support-button:hover {
+  background: #C7F6D0;
+  color: #111;
+}
+
+.faq-section {
+  margin-top: 60px;
+}
+
+.faq-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.faq-item {
+  background: rgba(32, 32, 32, 0.5);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.faq-question {
+  font-size: 18px;
+  font-weight: 600;
+  color: #C7F6D0;
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  font-size: 15px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 768px) {
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+}
